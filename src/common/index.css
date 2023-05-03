@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+a, a:active, a:visited, a:link {
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+
+
+@font-face {
+    font-family: 'Inter-medium';
+    src: url(../assets/fonts/Inter-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Inter-semi-bold';
+    src: url(../assets/fonts/Inter-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Inter-bold';
+    src: url(../assets/fonts/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Inter-extra-bold';
+    src: url(../assets/fonts/Inter-ExtraBold.ttf);
+}

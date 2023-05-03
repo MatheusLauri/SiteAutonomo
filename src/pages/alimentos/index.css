@@ -1,0 +1,333 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.tudo{
+    display: flex;
+    background-color:#D9D9D9;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho-f1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 110px;
+}
+
+.nav-f1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+
+    width: 890px;
+    height: 80px;
+}
+
+.nav-f1 nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-family: 'Inter-bold';
+    font-size: 18px;
+
+    width: 350px;
+    height: 70px;
+
+}
+
+.nav-f1 nav > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #272727;
+    text-decoration: none;
+
+    width: 150px;
+    height: 70px;
+
+    transition: 0.3s;
+} 
+
+.nav-f1 nav > a:hover {
+    background-image: url('../../assets/images/imageosso.png');
+    
+    background-repeat: no-repeat;
+    background-size: 130px;
+    background-position: 9px -1px;
+
+    color: #F65A5A;
+
+    z-index: 1;
+}
+
+
+.fotos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+}
+
+.fotos > img {
+    position: absolute;
+}
+
+.s1-ft{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.f1-s1 {
+    width: 60vw;
+    height: auto;
+    margin: 50px;
+}
+
+.f2-s1 {
+    height: 65vh;
+    width: auto;
+    
+}
+
+.s2-ft{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.col-s1, .col-s2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.f1-c1,.f2-c1,.f3-c1,.f4-c1 {
+    margin: 20px;
+    width: 13vw;
+}
+
+.fotos img:hover {
+    border-radius: 40px;
+    transition: 0.5s;
+    box-shadow: 10px 15px 15px #888888;
+}
+
+
+.rodape-pets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 300px;
+}
+
+.container-rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-right: 50px;
+
+    width: 1250px;
+    height: 300px;
+}
+
+.containers-rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 200px;
+}
+
+#container-redes_sociais-rodape {
+    height: 170px;
+}
+
+#container-contato-rodape {
+    height: 170px;
+}
+
+#container-local-rodape {
+
+    height: 170px;
+}
+
+.titulos-rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Inter-bold';
+    font-size: 12px;
+
+    color: #F65A5A;
+
+    background-image: url('../../assets/images/imageosso.png');
+    background-repeat: no-repeat;
+    background-size: 185px;
+    background-position: 1px 13px;
+
+    width: 190px;
+    height: 180px;
+}
+
+.container-icons-redes_sociais {
+    display: flex;
+    justify-content: space-between;
+
+    width: 150px;
+}
+
+.container-infos-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 60px;
+}
+
+.email-contato {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+    width: 250px;
+}
+
+.telefone-contato {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+    width: 218px;
+}
+
+
+.container-infos-local {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 60px;
+}
+
+.endereco-local {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+    width: 322px;
+    height: 20px;
+}
+
+.horario-local {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+    width: 180px;
+    height: 10px;
+}
+
+.endereco-local p {
+    text-align: center;
+    width: 220px;
+}
+
+.horario-local p {
+    text-align: center;
+    width: 70px;
+}
+
+.rodape-pets h3 {
+    font-family: 'Inter-bold';
+    font-size: 16px;
+}
+
+.rodape-pets p {
+    font-family: 'Inter-medium';
+    font-size: 14px;
+}
+
+.osso1 {   
+
+    left: 115px;
+    top: 1350px;
+}
+
+.patinha1 {   
+
+    transform: rotate(-25deg);
+    left: 165px;
+    top: 1200px;
+}
+
+.patinha2 {   
+
+    transform: rotate(-25deg);
+    left: 165px;
+    top: 1000px;
+}
+
+.patinha3 {   
+
+    transform: rotate(-25deg);
+    left: 165px;
+    top: 820px;
+}
+
+
+
+.osso2 {   
+    position: relative;
+    right: 115px;
+    top: 1350px;
+}
+
+.patinha4 {   
+    position: relative;
+
+    transform: rotate(-25deg);
+    right: 165px;
+    top: 1200px;
+}
+
+.patinha5 {   
+    position: relative;
+
+    transform: rotate(-25deg);
+    right: 165px;
+    top: 1000px;
+}
+
+.patinha6 {   
+    position: relative;
+
+    transform: rotate(-25deg);
+    right: 165px;
+    top: 820px;
+}
+
